@@ -1,4 +1,10 @@
 import axios from 'axios';
+// require('dotenv').config();
+// import dotenv from 'dotenv'
+// dotenv.config()
+require('dotenv').config({ path: '../../.env' })
+
+console.log(process.env.KEY);
 
 const KEY = 'AIzaSyBuLzw7zVLEZ_3S-06cEvgicHD3v9ZI7f0';
 
